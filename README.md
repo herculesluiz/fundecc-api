@@ -18,7 +18,7 @@ Os endpoints são:
 ### PUT
 - htttp://localhost:8080/cargos
 - htttp://localhost:8080/perfis
--      htttp://localhost:8080/usuarios
+- htttp://localhost:8080/usuarios
 
 ### DELETE 
 - htttp://localhost:8080/perfis/"id"
