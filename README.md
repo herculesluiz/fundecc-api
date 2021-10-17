@@ -27,4 +27,5 @@ Os endpoints são:
 Não houve tempo para criar todos os endpoints e o front end.
 O que restou foi finalizar os endpoint, relacionamentos e metodos de usuarios, e alguns metodos de cargo e perfil.
 No frontend eu vou criar em html/javascript os formularios para gerar os arquivos json para alimentar e consumir a api.
+Continuarei o desenvolvimento na branch homolog
 
