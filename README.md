@@ -17,3 +17,11 @@ PUT -  htttp://localhost:8080/cargos
        htttp://localhost:8080/usuarios
 
 DELETE - htttp://localhost:8080/perfis/"id"
+.
+.
+.
+.
+Não houve tempo para criar todos os endpoints e o front end.
+O que restou foi finalizar os endpoint, relacionamentos e metodos de usuarios, e alguns metodos de cargo e perfil.
+No frontend eu vou criar em html/javascript os formularios para gerar os arquivos json para alimentar e consumir a api.
+
