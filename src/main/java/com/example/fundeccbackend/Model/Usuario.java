@@ -21,23 +21,25 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import lombok.Data;
 
+
 @Data
 @Entity(name = "Usuario")
 @EntityListeners(AuditingEntityListener.class)
-public class Usuario {
+public class Usuario extends Pessoa{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    
     @Column(nullable = false)
     private String nome;
 
     @Column(nullable = false , unique = true , length = 14)
     private String cpf;
 
-    @DateTimeFormat(pattern = "dd/MM/yyyy")
-    private Date data_nascimento;
+    @Column(name = "data_nascimento" )
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date dataNascimento;
 
     @Column(length = 1)
     private char sexo;

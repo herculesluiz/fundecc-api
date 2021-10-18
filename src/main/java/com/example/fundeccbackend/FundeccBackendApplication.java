@@ -11,8 +11,8 @@ public class FundeccBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FundeccBackendApplication.class, args);
-
 		
+
 	}
 	
 }
